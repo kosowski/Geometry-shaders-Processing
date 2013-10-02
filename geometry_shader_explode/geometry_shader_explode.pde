@@ -28,7 +28,7 @@ void setup() {
   vertexShader.setupGeometryShader(TRIANGLES, TRIANGLES, 3);
   //If the sketch runs too slow, the number of polygons used for the sphere can be lowered (first parameter)
   sphere1 = createSphere(100, 200);
-  sphere1.setTint(206,186,0);
+  sphere1.setTint(242,231, 105);
 }
 
 void draw() {

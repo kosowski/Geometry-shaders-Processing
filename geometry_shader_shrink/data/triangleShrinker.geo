@@ -8,7 +8,6 @@ varying out vec3 posEye;
 varying out vec3 normalEye;
 varying out vec4 vColor;
 
-const vec3 LightPos = vec3(0., 300., 300.);
 
 vec4 V[3];
 vec4 CG;

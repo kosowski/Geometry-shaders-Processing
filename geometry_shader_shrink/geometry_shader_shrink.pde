@@ -26,7 +26,7 @@ void setup() {
   //vertices that the geometry shader can output
   vertexShader.setupGeometryShader(TRIANGLES, TRIANGLES, 3);
   sphere1 = createSphere(20, 200);
-  sphere1.setTint(206, 186, 0);
+  sphere1.setTint(242,231, 105);
 }
 
 void draw() {
@@ -35,7 +35,7 @@ void draw() {
   renderer.beginGL(); 
 
   vertexShader.start();
-  vertexShader.setFloatUniform("Shrink", 3 * (1 + sin(millis() * 0.001)));
+  vertexShader.setFloatUniform("Shrink", 2 * (1 + sin(millis() * 0.001)));
 
   noLights();
   pointLight(255, 255, 255, mouseX, mouseY, 600);

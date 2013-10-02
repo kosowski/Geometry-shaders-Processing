@@ -30,7 +30,7 @@ void setup() {
   //vertices that the geometry shader can output
   vertexShader.setupGeometryShader(TRIANGLES, TRIANGLES, n);
   sphere1 = createSphere(30, 200);
-  sphere1.setTint(206,186,0);
+  sphere1.setTint(242,231, 105);
 }
 
 void draw() {
